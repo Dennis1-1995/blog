@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Orderform</title>
+    <link rel="stylesheet" href="/css/chef_order_form.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <!-- PAGE CONTAINER -->
+    <div class="container-page">
+
+        <!-- HEADER -->
+        <header>
+
+            <nav>
+                <div class="container">
+                    <h1 id="logo-tekst">Mijn eerste website</h1>
+                </div>
+                <div class="container">
+                    <ul class="list-menu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">Over mezelf</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/chef_order_form.html">Orderform Chef</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <h2 class="h2-header">Chef Orderform</h2>
+
+        </header>
+
+        <!-- Main -->
+        <main>
+
+            <div class="container-form">
+                <form name="Orderform-Chef" method="POST" data-netlify="true">
+
+                    <div class="label-input">
+                        <label>Naam:</label>
+                        <input type="text" name="Naam">
+                    </div>
+
+                    <div class="label-input">
+                        <label>E-mail:</label>
+                        <input type="email" name="E-mail">
+                    </div>
+
+                    <div class="label-input">
+                        <label>Telefoonnummer:</label>
+                        <input type="tel" name="Telefoon">
+                    </div>
+
+                    <div class="label-input">
+                        <label>Leeftijd:</label>
+                        <input type="number" name="Leeftijd">
+                    </div>
+
+                    <div class="label-input">
+                        <label>Geboortedatum:</label>
+                        <input type="date" name="Geboortedatum">
+                    </div>
+
+                    <div class="label-input">
+                        <p>Geslacht:</p>
+                        <p>
+                            <label>
+                                <input type="radio" name="geslacht" value="Man"> Man
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="radio" name="geslacht" value="Vrouw"> Vrouw
+                            </label>
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div class="label-input">
+                        <p>Favoriete cuisine:</p>
+                        <p>
+                            <label><input type="checkbox" name="fav-cuisine-1" value="Frans">Frans</label>
+                        </p>
+                        <p>
+                            <label><input type="checkbox" name="fav-cuisine-2" value="Italiaans">Italiaans</label>
+                        </p>
+                        <p>
+                            <label><input type="checkbox" name="fav-cuisine-3" value="Spaans">Spaans</label>
+                        </p>
+                        <p>
+                            <label><input type="checkbox" name="fav-cuisine-4" value="Arabisch">Arabisch</label>
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div class="label-input">
+                        <label>Favoriete kleur van schort:</label>
+                        <input type="color" name="Colorpicker">
+                    </div>
+
+                    <div class="label-input">
+                        <label>Biografie:</label>
+                        <textarea name="Biografie" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="label-input">
+                        <label>Upload je laatste recept:</label>
+                        <input type="file" name="Laatste recept">
+                    </div>
+
+                    <hr>
+
+                    <div class="label-input">
+                        <label>Je url naar je recepten website:</label>
+                        <input type="url" name="url recepten website">
+                    </div>
+
+                    <!-- Bestelknop -->
+                    <div class="btn">
+                        <input type="submit" value="Verstuur">
+                    </div>
+
+                     <!-- Resetknop -->
+                    <div class="btn">
+                        <input type="reset" value="Reset">
+                    </div>
+
+                </form>
+            </div>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <a href="https://www.google.nl/" target="_blank" rel="noopener noreferrer">Kijk ook online via Google</a>
+        </footer>
+    </div>
+</body>
+
+</html>

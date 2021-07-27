@@ -1,0 +1,12 @@
+/* Formulier */
+label,
+input {
+  display: block;
+}
+.label-input {
+  margin-bottom: 10px;
+}
+.container-form {
+  display: flex;
+  justify-content: center;
+}

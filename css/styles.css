@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&display=swap");
+
+/* Mobile First */
+body {
+  margin: 0;
+  padding: 0;
+  color: blueviolet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  border: 1px solid #b7b6cc;
+  padding: 10px;
+  margin: 5px 0 25px;
+}
+main {
+  border: 1px solid #b7b6cc;
+  padding: 10px;
+  margin: 5px 0 25px;
+}
+
+h1 {
+  font-family: cursive;
+  color: deepskyblue;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+.container-page {
+  width: 80%;
+  margin: auto;
+}
+.h2-header {
+  border: 1px dotted black;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  padding: 3px;
+  font-size: 1rem;
+  text-align: center;
+}
+.container {
+  display: inline-block;
+}
+.list {
+  list-style: circle;
+}
+
+.font-link {
+  font-family: "Fuggles", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.list-menu {
+  list-style: none;
+  display: block;
+  margin-left: 15px;
+  padding: 0;
+}
+.list-menu li {
+  margin-left: 5px;
+}
+#logo-tekst {
+  font-family: "Fuggles", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: auto;
+}
+
+.avatar {
+  display: flex;
+  justify-items: center;
+}
+.avatar-img {
+  border-radius: 100px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.avatar-tekst {
+  padding: 5px 15px 0px 15px;
+  margin-top: 25px;
+  border: 1px solid #b7b6cc;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+.avatar-tekst h3 {
+  color: #8b008b;
+  font-weight: 400;
+}
+.footer a {
+  display: block;
+  text-align: center;
+}
+/* Formulier */
+label,
+input {
+  display: block;
+}
+.label-input {
+  margin-bottom: 10px;
+}
+.container-form {
+  display: flex;
+  justify-content: center;
+}
+
+/* Desktop Style */
+
+@media (min-width: 1024px) {
+  body {
+    background-color: #f7ebeb;
+    color: #443434;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
+  .list-menu {
+    display: flex;
+  }
+}
